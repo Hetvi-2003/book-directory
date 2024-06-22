@@ -1,0 +1,83 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f5ff; /* Light blue */
+            color: #333; /* Dark gray */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #002147; /* Dark blue */
+        }
+
+        form {
+            margin-bottom: 2em;
+        }
+
+        input[type=text], input[type=number] {
+            margin-right: 0.5em;
+            padding: 0.5em;
+            border: 1px solid #77acf1; /* Sky blue */
+            border-radius: 3px;
+        }
+
+        button {
+            margin-right: 1em;
+            padding: 0.5em 1em;
+            background-color: #002147; /* Dark blue */
+            color: #fff; /* White */
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004c8c; /* Darker blue */
+        }
+
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .book {
+            border: 1px solid #77acf1; /* Sky blue */
+            background-color: #fff; /* White */
+            padding: 1em;
+            margin-bottom: 1em;
+            width: 30%;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .book h2 {
+            color: #002147; /* Dark blue */
+            margin-top: 0;
+        }
+
+        .book p {
+            margin: 0.5em 0;
+            color: #666; /* Gray */
+        }
+
+        .remove-button {
+            color: red;
+            cursor: pointer;
+        }
+
+        .remove-button:hover {
+            color: darkred;
+        }
+
+        .edit-button {
+            color: #001f3f; /* Slightly darker blue */
+            cursor: pointer;
+            background-color: #d4e5f7; /* Lighter blue */
+            border: 1px solid #77acf1; /* Sky blue */
+        }
+
+        .edit-button:hover {
+            background-color: #c2ddf5; /* Slightly darker lighter blue */
+        }
