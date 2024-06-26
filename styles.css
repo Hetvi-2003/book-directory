@@ -1,14 +1,14 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f5ff; /* Light blue */
-            color: #333; /* Dark gray */
+            background-color: #f0f5ff; 
+            color: #333;
             margin: 0;
             padding: 0;
         }
 
         h1 {
-            color: #002147; /* Dark blue */
+            color: #002147; 
         }
 
         form {
@@ -18,22 +18,22 @@
         input[type=text], input[type=number] {
             margin-right: 0.5em;
             padding: 0.5em;
-            border: 1px solid #77acf1; /* Sky blue */
+            border: 1px solid #77acf1; 
             border-radius: 3px;
         }
 
         button {
             margin-right: 1em;
             padding: 0.5em 1em;
-            background-color: #002147; /* Dark blue */
-            color: #fff; /* White */
+            background-color: #002147;
+            color: #fff;
             border: none;
             border-radius: 3px;
             cursor: pointer;
         }
 
         button:hover {
-            background-color: #004c8c; /* Darker blue */
+            background-color: #004c8c; 
         }
 
         .book-list {
@@ -43,8 +43,8 @@
         }
 
         .book {
-            border: 1px solid #77acf1; /* Sky blue */
-            background-color: #fff; /* White */
+            border: 1px solid #77acf1; 
+            background-color: #fff; 
             padding: 1em;
             margin-bottom: 1em;
             width: 30%;
@@ -53,13 +53,13 @@
         }
 
         .book h2 {
-            color: #002147; /* Dark blue */
+            color: #002147; 
             margin-top: 0;
         }
 
         .book p {
             margin: 0.5em 0;
-            color: #666; /* Gray */
+            color: #666; 
         }
 
         .remove-button {
@@ -72,12 +72,12 @@
         }
 
         .edit-button {
-            color: #001f3f; /* Slightly darker blue */
+            color: #001f3f; 
             cursor: pointer;
-            background-color: #d4e5f7; /* Lighter blue */
-            border: 1px solid #77acf1; /* Sky blue */
+            background-color: #d4e5f7; 
+            border: 1px solid #77acf1; 
         }
 
         .edit-button:hover {
-            background-color: #c2ddf5; /* Slightly darker lighter blue */
+            background-color: #c2ddf5; 
         }

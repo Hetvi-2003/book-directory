@@ -10,23 +10,23 @@
                         { title: 'To Kill a Mockingbird', author: 'Harper Lee', genre: 'Fiction', publicationYear: 1960, isbn: '978-3-16-148412-0' }
                     ];
                     vm.newBook = { title: '', author: '', genre: '', publicationYear: '', isbn: '' };
-                    vm.editingIndex = -1; // Initialize as -1, meaning not editing any book
+                    vm.editingIndex = -1; 
 
                     vm.addBook = function() {
                         if (vm.editingIndex === -1) {
                             vm.books.push(vm.newBook);
                         } else {
-                            // If editing, replace the book at editingIndex with newBook
+                          
                             vm.books[vm.editingIndex] = angular.copy(vm.newBook);
-                            vm.editingIndex = -1; // Reset editingIndex
+                            vm.editingIndex = -1; 
                         }
                         vm.newBook = { title: '', author: '', genre: '', publicationYear: '', isbn: '' };
                     };
 
                     vm.editBook = function(book) {
-                        // Set editingIndex to the index of the book being edited
+                        
                         vm.editingIndex = vm.books.indexOf(book);
-                        // Copy the book details to newBook for editing
+                  
                         vm.newBook = angular.copy(book);
                     };
 
